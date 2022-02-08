@@ -240,6 +240,10 @@ nav {
     color: white;
 }
 
+#newsHeader {
+    color: white;
+}
+
 .pricing {
     margin-top: 100px;
     display: flex;
@@ -270,11 +274,14 @@ nav {
 }
 
 .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    font-size: 20px;
     color: rgb(27, 116, 218);
     font-weight: bold;
+}
+
+.price2 {
+    font-size: 18px; 
+    color: rgba(27, 116, 218, 0.9);
 }
 
 .check {
@@ -299,6 +306,7 @@ nav {
     display: flex;
     justify-content: start;
     align-items: center; 
+    font-size: 18px;
 }
 
 .priceDiv2 {
@@ -315,6 +323,88 @@ nav {
 
 #centerTile {
     padding-top: 100px;
-    background-color: rgb(15, 5, 71);
+    background-color: rgb(3, 2, 54);
     color: white;
+}
+
+.branches {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 2, 41);
+    padding: 50px;
+    padding-bottom: 500px;
+}
+
+.branchesDesc {
+    width: 30%;
+    color: white;
+}
+
+.branchesP {
+    text-align: start;
+}
+
+#map {
+    width: 40%;
+}
+
+.appointment {
+
+}
+
+.appointmentCont {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+}
+
+#formPic {
+    width: 30%;
+}
+
+.appointmentForm {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputCont {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.formLabel {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-style: none;
+}
+
+#book {
+    width: 86%;
+    background-color: rgb(27, 116, 218);
+    padding: 10px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: -20px;
 }
