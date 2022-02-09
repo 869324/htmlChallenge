@@ -408,3 +408,52 @@ nav {
     border-radius: 5px;
     margin-left: -20px;
 }
+
+.contact1 {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnContact {
+    background-color: rgb(27, 116, 218);
+    border-style: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 60vw;
+}
+
+.footerTiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footerIcon {
+    width: 20px;
+    filter: invert(39%) sepia(46%) saturate(1588%) hue-rotate(183deg) brightness(92%) contrast(101%);
+}
+
+.footerLink {
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
